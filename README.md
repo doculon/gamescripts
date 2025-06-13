@@ -25,6 +25,32 @@ pip install -r requirements.txt
 
 ## Getting Started
 
+### Quick Start - Main Application (Recommended)
+
+The new main application combines all features in a single tabbed interface:
+
+**Run the main application:**
+
+On Windows (no console window):
+```bash
+pythonw main_gui.py
+```
+Or double-click `main_gui.pyw`
+
+On Linux/Mac:
+```bash
+python main_gui.py
+```
+
+**Main Application Features:**
+- **Monitor Potions Tab**: Real-time potion monitoring and automation
+- **Settings Tab**: Comprehensive settings with sub-tabs:
+  - **General**: Health/mana thresholds, window focus, cooldowns
+  - **Potion Setup**: Built-in setup wizard for initial configuration
+  - **Advanced**: Pixel tolerance, debug mode, utility potion settings
+
+### Alternative: Individual Tools
+
 ### Step 1: Initial Setup (potion-setup.py)
 
 The setup tool helps you configure the potion manager for your game resolution and UI layout.
